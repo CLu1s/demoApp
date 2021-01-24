@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import "tailwindcss/dist/base.min.css"
+import "tailwindcss/dist/components.min.css"
+import "tailwindcss/dist/utilities.min.css"
 
 ReactDOM.render(
   <React.StrictMode>

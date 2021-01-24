@@ -12,14 +12,14 @@ const App = () => {
   const miRender = miArray.map((item) => {
     return (
       <di>
-        <Saludo nombres={item} />
+        <Saludo nombres={item} font="sm" />
       </di>
     );
   });
 
   const miListaDePokemon = pokemonList.map((item) => (
     <div>
-      <Saludo nombres={item.name} />
+      <Saludo nombres={item.name} font="lg" />
       <img src={item.sprites.front_shiny} />
     </div>
   ));
